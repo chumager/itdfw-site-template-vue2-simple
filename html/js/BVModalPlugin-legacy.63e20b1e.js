@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["BVModalPlugin"],{c537:function(n,a,o){"use strict";o.r(a);var s=o("980a");Vue.use(s.a)}}]);

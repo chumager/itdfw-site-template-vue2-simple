@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["components-ItdTextArea"],{fbd9:function(t,n,e){"use strict";e.r(n),n.default={$BVP:"FormTextareaPlugin",extends:Vue.GenericInput,data:function(){return{tag:"b-textarea",link:!0,attrs:{maxRows:this.input.maxRows||100,rows:this.input.rows||3}}}}}}]);

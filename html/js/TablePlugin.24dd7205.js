@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["TablePlugin"],{dadc:function(n,e,s){"use strict";s.r(e);var u=s("6977");Vue.use(u.b)}}]);

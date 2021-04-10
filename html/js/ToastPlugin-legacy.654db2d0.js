@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["ToastPlugin"],{dbd8:function(s,a,n){"use strict";var o,e,t,u,b;n.r(a),o=n("bc6e"),e=n("8f22"),t=n("b858"),u=n("fd9b"),b=Object(u.a)({components:{BToast:e.a,BToaster:t.a},plugins:{BVToastPlugin:o.a}}),Vue.use(b)}}]);

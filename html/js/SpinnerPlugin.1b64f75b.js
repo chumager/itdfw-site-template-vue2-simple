@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["SpinnerPlugin"],{2757:function(n,e,p){"use strict";var i,o,s;p.r(e),i=p("bd9a"),o=p("fd9b"),s=Object(o.a)({components:{BSpinner:i.a}}),Vue.use(s)}}]);

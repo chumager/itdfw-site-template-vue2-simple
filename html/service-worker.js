@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.063ce6c9ad73d83f9891ab2bf03f8e4b.js"
+  "/precache-manifest.7c96a4b086b5010319c16f1e30a4d1f2.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "doble-impacto-site"});

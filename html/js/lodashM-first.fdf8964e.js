@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["lodashM-first"],{"7d78":function(n,i,t){"use strict";t.r(i);var o=t("87c4");window.first=o.a},"87c4":function(n,i,t){"use strict";i.a=function(n){return n&&n.length?n[0]:void 0}}}]);

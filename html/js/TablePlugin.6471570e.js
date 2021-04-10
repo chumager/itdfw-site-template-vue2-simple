@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["TablePlugin"],{"7d82":function(n,e,s){"use strict";s.r(e);var u=s("69777");Vue.use(u.b)}}]);

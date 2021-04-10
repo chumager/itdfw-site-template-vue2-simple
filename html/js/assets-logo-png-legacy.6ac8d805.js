@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["assets-logo-png"],{bc7f:function(o,p,n){o.exports=n.p+"img/logo.82b9c7a5.png"}}]);
