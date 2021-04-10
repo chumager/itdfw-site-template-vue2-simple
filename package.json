@@ -1,0 +1,10 @@
+{
+  "version": "1.0.0",
+  "name": "itdfw-site-template-vue-simple",
+  "description": "ITDFW site template for vue2",
+  "main": "index.js",
+  "repository": "git@github.com:chumager/itdfw-site-template-vue2-simple.git",
+  "author": "Juan Carlos Muñoz <jcmunoz@itdmovil.cl>",
+  "license": "UNLICENSED",
+  "private": true
+}

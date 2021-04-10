@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["components-v-switch"],{"41fc":function(n,e,t){"use strict";t.r(e),e.default={functional:!0,name:"v-switch",props:{value:{type:[String,Number],required:!0}},render:function(n,e){var t=e.data,r=e.props,o=e.scopedSlots,s=r.value,u=s in o?o[s]:o.default;return u?u(t.attrs):null}}}}]);

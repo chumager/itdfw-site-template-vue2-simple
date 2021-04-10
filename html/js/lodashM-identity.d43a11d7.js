@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["lodashM-identity"],{5170:function(n,i,t){"use strict";t.r(i);var c=t("8c3e");window.identity=c.a},"8c3e":function(n,i,t){"use strict";i.a=function(n){return n}}}]);

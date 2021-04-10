@@ -1,0 +1,42 @@
+{
+  "name": "doble-impacto-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --host",
+    "build": "vue-cli-service build --modern",
+    "inspect": "vue-cli-service inspect",
+    "test:e2e": "vue-cli-service test:e2e",
+    "lint": "vue-cli-service lint",
+    "sdk": "yarn dlx @yarnpkg/pnpify --sdk vim"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/eslint-parser": "^7.13.14",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/runtime": "^7.13.10",
+    "@chumager/itdfw-site-base": "2.1.3",
+    "@vue/babel-preset-app": "^4.5.12",
+    "@vue/cli-plugin-babel": "^4.5.12",
+    "@vue/cli-plugin-pwa": "^4.5.12",
+    "@vue/cli-service": "^4.5.12",
+    "@vue/component-compiler-utils": "^3.2.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-loader": "^8.2.2",
+    "lodash-es": "^4.17.21",
+    "node-sass": "^5.0.0",
+    "sass-loader": "10.1.1",
+    "vue": "^2.6.12",
+    "vue-masonry-css": "^1.0.3",
+    "vue-print-nb": "^1.6.0",
+    "vue-template-compiler": "^2.6.12",
+    "vue2-google-maps": "^0.10.7",
+    "vuedraggable": "^2.24.3",
+    "vuex": "^3.6.2"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

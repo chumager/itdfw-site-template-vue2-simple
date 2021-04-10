@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([["lodashM-head"],{"87c4":function(n,c,o){"use strict";c.a=function(n){return n&&n.length?n[0]:void 0}},c056:function(n,c,o){"use strict";o.r(c);var i=o("87c4");window.head=i.a}}]);
