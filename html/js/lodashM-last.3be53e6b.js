@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["lodashM-last"],{"286e":function(n,t,o){"use strict";o.r(t);var s=o("42d8");window.last=s.a},"42d8":function(n,t,o){"use strict";t.a=function(n){var t=null==n?0:n.length;return t?n[t-1]:void 0}}}]);

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["BVToastPlugin"],{"04c4":function(n,s,c){"use strict";c.r(s);var e=c("bc6e");Vue.use(e.a)}}]);

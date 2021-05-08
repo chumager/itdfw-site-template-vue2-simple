@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["lodashM-isBoolean"],{b060:function(o,n,e){"use strict";var a,b,c,i;e.r(n),a=e("b054"),b=e("207b"),c="[object Boolean]",i=function(o){return!0===o||!1===o||Object(b.a)(o)&&Object(a.a)(o)==c},window.isBoolean=i}}]);
