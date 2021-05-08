@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([["LinkPlugin"],{b521:function(n,e,i){"use strict";var o,s,b;i.r(e),o=i("b8f4"),s=i("fd9b"),b=Object(s.a)({components:{BLink:o.a}}),Vue.use(b)}}]);
