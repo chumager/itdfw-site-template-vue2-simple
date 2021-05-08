@@ -1393,13 +1393,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@chumager/itdfw-site-base@npm:2.1.6":
-  version: 2.1.6
-  resolution: "@chumager/itdfw-site-base@npm:2.1.6"
+"@chumager/itdfw-site-base@portal:/home/jcmunoz/Develop/node.js/itdfw-site-base::locator=doble-impacto-site%40workspace%3A.":
+  version: 0.0.0-use.local
+  resolution: "@chumager/itdfw-site-base@portal:/home/jcmunoz/Develop/node.js/itdfw-site-base::locator=doble-impacto-site%40workspace%3A."
   dependencies:
     "@chumager/promise-helpers": ^2.0.0
     "@chumager/vue-request": 1.0.9
     "@saeris/vue-spinners": ^1.0.8
+    "@vue/eslint-config-prettier": ^6.0.0
+    "@vue/test-utils": ^1.1.3
     animate.css: ^4.1.1
     axios: ^0.21.1
     axios-extensions: ^3.1.3
@@ -1408,17 +1410,21 @@ __metadata:
     chart.js: ^2.9.4
     comlink: ^4.3.0
     comlink-loader: ^2.0.0
-    compression-webpack-plugin: ^7.1.2
+    compression-webpack-plugin: 6.1.1
     core-js: ^3.10.0
     deep-object-diff: ^1.1.0
     eqcss: ^1.9.2
     file-saver: ^2.0.5
     flat: ^5.0.2
+    fs-extra: ^9.1.0
     gsap: ^3.6.1
     inspectpack: ^4.7.1
+    install-peers-cli: ^2.2.0
     jodit: 3.6.8
     json5: ^2.2.0
+    json5-loader: ^4.0.1
     libphonenumber-js: ^1.9.16
+    lodash: ^4.17.21
     lodash-es: ^4.17.21
     moment: ^2.29.1
     mustache: ^4.2.0
@@ -1431,6 +1437,7 @@ __metadata:
     qs: ^6.10.1
     register-service-worker: ^1.7.2
     resize-observer-polyfill: ^1.5.1
+    resolve: ^1.20.0
     rut-helpers: ^0.1.1
     tableexport: ^5.2.0
     tinycolor2: ^1.4.2
@@ -1444,7 +1451,7 @@ __metadata:
     vue-backtotop: ^1.6.1
     vue-bootstrap-typeahead: ^0.2.6
     vue-chartjs: ^3.5.1
-    vue-cli-plugin-compression: ~1.1.3
+    vue-cli-plugin-pnp: ^1.0.0
     vue-clickaway: ^2.2.2
     vue-clipboard2: ^0.3.1
     vue-color: ^2.8.1
@@ -1482,9 +1489,8 @@ __metadata:
     worker-loader: ^3.0.8
     yaml: ^1.10.2
     zxcvbn: ^4.4.2
-  checksum: b76b42b08d5a85ab25d40d38a7cd231b80f7c75874b6d9c30c2f3331957fa55c69628ce76817cc642a3f63d8fb523f641d87cb37e50e46f15de06b5517a1dd8c
   languageName: node
-  linkType: hard
+  linkType: soft
 
 "@chumager/promise-helpers@npm:^2.0.0":
   version: 2.0.0
@@ -2536,6 +2542,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@vue/test-utils@npm:^1.1.3":
+  version: 1.2.0
+  resolution: "@vue/test-utils@npm:1.2.0"
+  dependencies:
+    dom-event-types: ^1.0.0
+    lodash: ^4.17.15
+    pretty: ^2.0.0
+  peerDependencies:
+    vue: 2.x
+    vue-template-compiler: ^2.x
+  checksum: 187e8a5925a5c9514abb145b518f5507319ebbc9175a68e9a33d45aaffbf88779ad95db8406e3f5bd21cb61094fe5ac94a2335f453b82a1b0df98d44511fe3a1
+  languageName: node
+  linkType: hard
+
 "@vue/web-component-wrapper@npm:^1.2.0":
   version: 1.3.0
   resolution: "@vue/web-component-wrapper@npm:1.3.0"
@@ -3205,6 +3225,13 @@ __metadata:
   version: 0.4.0
   resolution: "asynckit@npm:0.4.0"
   checksum: a024000b9ddd938e2f27b3cb8188f96a5e1fff58185e98b84862fc4e01de279a547874a800340c2b106bb9de9b0fc61c6c683bc6892abf65e6be29a96addafd3
+  languageName: node
+  linkType: hard
+
+"at-least-node@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "at-least-node@npm:1.0.0"
+  checksum: 8f33efc16287ed39766065c718a2d36a469f702c66c6eb41fa460c0c62bca395301a6a02946e315ae4a84c9cc7f44c94ec73a556bc2a1049350da98d0b013afe
   languageName: node
   linkType: hard
 
@@ -4595,7 +4622,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:^2.18.0, commander@npm:^2.20.0":
+"commander@npm:^2.18.0, commander@npm:^2.19.0, commander@npm:^2.20.0":
   version: 2.20.3
   resolution: "commander@npm:2.20.3"
   checksum: b73428e97de7624323f81ba13f8ed9271de487017432d18b4da3f07cfc528ad754bbd199004bd5d14e0ccd67d1fdfe0ec8dbbd4c438b401df3c4cc387bfd1daa
@@ -4675,18 +4702,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"compression-webpack-plugin@npm:^7.1.2":
-  version: 7.1.2
-  resolution: "compression-webpack-plugin@npm:7.1.2"
-  dependencies:
-    schema-utils: ^3.0.0
-    serialize-javascript: ^5.0.1
-  peerDependencies:
-    webpack: ^5.1.0
-  checksum: cc75535bfb2bbe353d3b9b49f3411e412457b62dda14c3406bb0c499d4894a67a702f934575909e22b628e1696b276814fc483a40afaf9f35e8790d3f679f44a
-  languageName: node
-  linkType: hard
-
 "compression@npm:^1.7.4":
   version: 1.7.4
   resolution: "compression@npm:1.7.4"
@@ -4718,6 +4733,27 @@ __metadata:
     readable-stream: ^2.2.2
     typedarray: ^0.0.6
   checksum: 7a97b7a7d0938e36800bdb6f5caf938bac8c523a6ec15df1f2ac41d3785541be30a6671c9f4c0d1ac9609e6ab29dcab8f54d1c84035e3e3b7b24f9336da68ab0
+  languageName: node
+  linkType: hard
+
+"condense-newlines@npm:^0.2.1":
+  version: 0.2.1
+  resolution: "condense-newlines@npm:0.2.1"
+  dependencies:
+    extend-shallow: ^2.0.1
+    is-whitespace: ^0.3.0
+    kind-of: ^3.0.2
+  checksum: 1d3885d4552933d6b354350e87fc6ab04f221be8d2f748ab9de9999e512305c1d158b5ec3e51893651f8c3b5f999f044973ceeb8092feb26cd37164859396b0d
+  languageName: node
+  linkType: hard
+
+"config-chain@npm:^1.1.12":
+  version: 1.1.12
+  resolution: "config-chain@npm:1.1.12"
+  dependencies:
+    ini: ^1.3.4
+    proto-list: ~1.2.1
+  checksum: caf4b96491c2ea6fc5e6e23cebc526040cf21779ffc544c705a21b788f7dc3d34bc439878dcdfae8c15830052be55d62b26acada13da1236142d3efc5b4329be
   languageName: node
   linkType: hard
 
@@ -5615,9 +5651,7 @@ __metadata:
     "@vue/eslint-config-prettier": ^6.0.0
     babel-loader: ^8.2.2
     vue: ^2.6.12
-    vue-cli-plugin-compression: ^1.1.3
     vue-template-compiler: ^2.6.12
-    webpack: ^4.46.0
   languageName: unknown
   linkType: soft
 
@@ -5627,6 +5661,13 @@ __metadata:
   dependencies:
     utila: ~0.4
   checksum: 437b4464bd3c5e654decf855f9263e939d633d7bb720512f9a400b3e1005d870eb4a5fbead7d9ccb7849f7df5ee30c62f9a56b68143c13575ae5fef16007742c
+  languageName: node
+  linkType: hard
+
+"dom-event-types@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "dom-event-types@npm:1.0.0"
+  checksum: 61ed18b8428c4a35a77b698428cb6f209d401341b36e2465dac1d86d8b0ccf6d14d919fef564c588dfb6334abba32573a2f86463da004361e143973d7f7c4774
   languageName: node
   linkType: hard
 
@@ -5783,6 +5824,20 @@ __metadata:
     jsbn: ~0.1.0
     safer-buffer: ^2.1.0
   checksum: 5b4dd05f24b2b94c1bb882488dba2b878bb5b83182669aa71fbdf53c6941618180cb226c4eb9a3e2fa51ad11f87b5edb0a7d7289cdef468ba2e6024542f73f07
+  languageName: node
+  linkType: hard
+
+"editorconfig@npm:^0.15.3":
+  version: 0.15.3
+  resolution: "editorconfig@npm:0.15.3"
+  dependencies:
+    commander: ^2.19.0
+    lru-cache: ^4.1.5
+    semver: ^5.6.0
+    sigmund: ^1.0.1
+  bin:
+    editorconfig: bin/editorconfig
+  checksum: ed8491cac424b93c00b9ead7b1d67267901bc87807b3f977b328f83f118018aa216225bd05fc1aa72a5b3e76fa93e19097ee7a0b9409779864a0ceef0ed2e0ea
   languageName: node
   linkType: hard
 
@@ -6373,6 +6428,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"executioner@npm:^2.0.1":
+  version: 2.0.1
+  resolution: "executioner@npm:2.0.1"
+  dependencies:
+    mixly: ^1.0.0
+  checksum: 0898391641df712976bd124069269834f62722981326735f7c3cc03f6440a15a1e97a14219fc73806aa0ab0acb2f44127f775a0742731a010c8bff40cf1a37e1
+  languageName: node
+  linkType: hard
+
 "exit-on-epipe@npm:~1.0.1":
   version: 1.0.1
   resolution: "exit-on-epipe@npm:1.0.1"
@@ -6877,6 +6941,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"fs-extra@npm:^9.1.0":
+  version: 9.1.0
+  resolution: "fs-extra@npm:9.1.0"
+  dependencies:
+    at-least-node: ^1.0.0
+    graceful-fs: ^4.2.0
+    jsonfile: ^6.0.1
+    universalify: ^2.0.0
+  checksum: e667d8df54113b527bf5830dd9db8f142618db488894b329fe07724c7020dfacf8a372b144a74e683ae44e66f56117adca9cac165950dda7d83537c46c10dc4b
+  languageName: node
+  linkType: hard
+
 "fs-minipass@npm:^2.0.0":
   version: 2.1.0
   resolution: "fs-minipass@npm:2.1.0"
@@ -6940,6 +7016,13 @@ fsevents@~2.3.1:
   dependencies:
     node-gyp: latest
   checksum: a1883f4ca12b8b403ec528f1a4cb312b0877eacd24719da535cabea78d6fdd78530e3538bdba590a1c0f6c295128f964a89182621885296353a44dcfa4f9db53
+  languageName: node
+  linkType: hard
+
+"fulcon@npm:^1.0.1":
+  version: 1.0.2
+  resolution: "fulcon@npm:1.0.2"
+  checksum: 8b81fd434e9783e01eec891c7f083b81e46bc5a55f2f623e2eb79e392060027bb3e82a39f209b82c03726d650b1e735059df4118523d703f56c6d35821895686
   languageName: node
   linkType: hard
 
@@ -7154,7 +7237,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"graceful-fs@npm:^4.1.11, graceful-fs@npm:^4.1.15, graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.2, graceful-fs@npm:^4.2.6":
+"graceful-fs@npm:^4.1.11, graceful-fs@npm:^4.1.15, graceful-fs@npm:^4.1.2, graceful-fs@npm:^4.1.6, graceful-fs@npm:^4.2.0, graceful-fs@npm:^4.2.2, graceful-fs@npm:^4.2.6":
   version: 4.2.6
   resolution: "graceful-fs@npm:4.2.6"
   checksum: 84d39c7756892553da990a9db7e45f844b3309b37b5a00174cbb4748476f2250c54f24594d4d252f64f085c65c2fdac7c809419bf6d55f0e6e42eb07ac0f5bf2
@@ -7856,6 +7939,13 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"ini@npm:^1.3.4":
+  version: 1.3.8
+  resolution: "ini@npm:1.3.8"
+  checksum: 62189ce7ea44c5778e757e4232c581212e838f3c39e79d931bb9152fd4b9275f09fb20b96afdd60ba9f5d7996b92486cad6cc617fcb84ff4beedd1b33b86221e
+  languageName: node
+  linkType: hard
+
 "inspectpack@npm:^4.6.1, inspectpack@npm:^4.7.1":
   version: 4.7.1
   resolution: "inspectpack@npm:4.7.1"
@@ -7870,6 +7960,18 @@ fsevents@~2.3.1:
   bin:
     inspectpack: bin/inspectpack.js
   checksum: 4e1dd80b8bfe3384c81281825ab9976de4ee294064ad27c97ecc7f5593575f02e1d10fbe89910d89f28696c472143a865f6abcd455e38fe1676510cb3c54e770
+  languageName: node
+  linkType: hard
+
+"install-peers-cli@npm:^2.2.0":
+  version: 2.2.0
+  resolution: "install-peers-cli@npm:2.2.0"
+  dependencies:
+    commander: ^2.20.0
+    executioner: ^2.0.1
+  bin:
+    install-peers: ./install.js
+  checksum: 05b18063579206b6f8ef2ce75127f17f5d671f8d0c6a2a4afb01b0673413806e00ca9520aeff484fb834ddce35b1082c99f0d9b8fc212a013e0e5c275b7d7b17
   languageName: node
   linkType: hard
 
@@ -8336,6 +8438,13 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"is-whitespace@npm:^0.3.0":
+  version: 0.3.0
+  resolution: "is-whitespace@npm:0.3.0"
+  checksum: defe0fe74842763d219065a677ff22aaef5a2dd48affac18d0a8cb2cb82030712badaed08a85f2a22406e245d9a625396117bb36d84a71f7b4cb1dbc62306793
+  languageName: node
+  linkType: hard
+
 "is-windows@npm:^1.0.2":
   version: 1.0.2
   resolution: "is-windows@npm:1.0.2"
@@ -8426,6 +8535,23 @@ fsevents@~2.3.1:
   dependencies:
     autobind-decorator: ^2.4.0
   checksum: 745e7b95926b8a30c09075571f147faff02154dd10df9d211a40a8259b7a37e6a90995ca2a038002e3e9a5d0044fe7c1eedb565e305ab2b0a8de8e1c5287bf78
+  languageName: node
+  linkType: hard
+
+"js-beautify@npm:^1.6.12":
+  version: 1.13.13
+  resolution: "js-beautify@npm:1.13.13"
+  dependencies:
+    config-chain: ^1.1.12
+    editorconfig: ^0.15.3
+    glob: ^7.1.3
+    mkdirp: ^1.0.4
+    nopt: ^5.0.0
+  bin:
+    css-beautify: js/bin/css-beautify.js
+    html-beautify: js/bin/html-beautify.js
+    js-beautify: js/bin/js-beautify.js
+  checksum: 8bdf7ec98dc64db087fd7ed9af1f22524ea378d7ba509fe11a2e3c81d00710b20a4a010a669852507fe9f4ec2f5e23d57a19f4a809d7e4fcea08123292c374b0
   languageName: node
   linkType: hard
 
@@ -8556,6 +8682,19 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"json5-loader@npm:^4.0.1":
+  version: 4.0.1
+  resolution: "json5-loader@npm:4.0.1"
+  dependencies:
+    json5: ^2.1.3
+    loader-utils: ^2.0.0
+    schema-utils: ^3.0.0
+  peerDependencies:
+    webpack: ^4.0.0 || ^5.0.0
+  checksum: b56c3bacd2f9ce588f78a18500057bb8c965c2cf9a1f8022567dc1cf37cc6130742e944f4d9dff2d9d73659903da32e9a6456b85e41bdd3602d3a5a4022a355d
+  languageName: node
+  linkType: hard
+
 "json5@npm:^0.5.0":
   version: 0.5.1
   resolution: "json5@npm:0.5.1"
@@ -8576,7 +8715,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"json5@npm:^2.1.2, json5@npm:^2.2.0":
+"json5@npm:^2.1.2, json5@npm:^2.1.3, json5@npm:^2.2.0":
   version: 2.2.0
   resolution: "json5@npm:2.2.0"
   dependencies:
@@ -8596,6 +8735,19 @@ fsevents@~2.3.1:
     graceful-fs:
       optional: true
   checksum: a40b7b64da41c84b0dc7ad753737ba240bb0dc50a94be20ec0b73459707dede69a6f89eb44b4d29e6994ed93ddf8c9b6e57f6b1f09dd707567959880ad6cee7f
+  languageName: node
+  linkType: hard
+
+"jsonfile@npm:^6.0.1":
+  version: 6.1.0
+  resolution: "jsonfile@npm:6.1.0"
+  dependencies:
+    graceful-fs: ^4.1.6
+    universalify: ^2.0.0
+  dependenciesMeta:
+    graceful-fs:
+      optional: true
+  checksum: 9419c886abc6f8a5088cbb222b7bc17c76e8ee9f6c0e5c38781a4e09488166084f25247bc0b58e025b08c43064c82ae860ad89a992e35fc8cfae639323b7edbc
   languageName: node
   linkType: hard
 
@@ -8877,7 +9029,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"lodash@npm:^4.17.11, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.17.3":
+"lodash@npm:^4.17.11, lodash@npm:^4.17.14, lodash@npm:^4.17.15, lodash@npm:^4.17.19, lodash@npm:^4.17.20, lodash@npm:^4.17.21, lodash@npm:^4.17.3":
   version: 4.17.21
   resolution: "lodash@npm:4.17.21"
   checksum: 4983720b9abca930a4a46f18db163d7dad8dd00dbed6db0cc7b499b33b717cce69f80928b27bbb1ff2cbd3b19d251ee90669a8b5ea466072ca81c2ebe91e7468
@@ -8918,7 +9070,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"lru-cache@npm:^4.1.1, lru-cache@npm:^4.1.2":
+"lru-cache@npm:^4.1.1, lru-cache@npm:^4.1.2, lru-cache@npm:^4.1.5":
   version: 4.1.5
   resolution: "lru-cache@npm:4.1.5"
   dependencies:
@@ -9396,6 +9548,15 @@ fsevents@~2.3.1:
     for-in: ^1.0.2
     is-extendable: ^1.0.1
   checksum: 68da98bc1af57ffccde7abdc86ac49feec263b73b3c483ab7e6e2fab9aa2b06fba075da9e86bcda725133c1d2a59e4c810a17b55865c67c827871c25d5713c33
+  languageName: node
+  linkType: hard
+
+"mixly@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "mixly@npm:1.0.0"
+  dependencies:
+    fulcon: ^1.0.1
+  checksum: e510d48c948b9410ce033389a9b516a773d8242b422fab2792b46798386a14f11ce3bc922c925e7fee7780f67dc38b24f38fdb23156eaac749891f8601b491a6
   languageName: node
   linkType: hard
 
@@ -10517,7 +10678,7 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
-"pnp-webpack-plugin@npm:^1.6.4":
+"pnp-webpack-plugin@npm:^1.5.0, pnp-webpack-plugin@npm:^1.6.4":
   version: 1.6.4
   resolution: "pnp-webpack-plugin@npm:1.6.4"
   dependencies:
@@ -11061,6 +11222,17 @@ fsevents@~2.3.1:
   languageName: node
   linkType: hard
 
+"pretty@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "pretty@npm:2.0.0"
+  dependencies:
+    condense-newlines: ^0.2.1
+    extend-shallow: ^2.0.1
+    js-beautify: ^1.6.12
+  checksum: 18e4738abd12f1cd195ba3b1b85b339bbaf9d0b2408ddbcc102cb31a62a57e5090894c5c29ede59dc5845c0e3d58933edb4825f380bc27d07ee74a751465d80e
+  languageName: node
+  linkType: hard
+
 "printj@npm:~1.1.0, printj@npm:~1.1.2":
   version: 1.1.2
   resolution: "printj@npm:1.1.2"
@@ -11098,6 +11270,13 @@ fsevents@~2.3.1:
     err-code: ^2.0.2
     retry: ^0.12.0
   checksum: 325e99d059fc624129c020507047a9aeadb988d03fd2165829af7c43af9c6d0510f2ccddb68efa0bac607d4c43591b3af8b1207db132986bfa458f78549ea4f1
+  languageName: node
+  linkType: hard
+
+"proto-list@npm:~1.2.1":
+  version: 1.2.4
+  resolution: "proto-list@npm:1.2.4"
+  checksum: e722a11c66837cab0d5b81dd3f18717b73ea068fad0ceaf71d856e82167699c632201d0a1793ea48c997f1ac8544e9af89debc5cbd389b639370bc1adfb3abb4
   languageName: node
   linkType: hard
 
@@ -11624,7 +11803,7 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"resolve@^1.1.5, resolve@^1.10.0, resolve@^1.12.0, resolve@^1.14.2":
+"resolve@^1.1.5, resolve@^1.10.0, resolve@^1.12.0, resolve@^1.14.2, resolve@^1.20.0":
   version: 1.20.0
   resolution: "resolve@npm:1.20.0"
   dependencies:
@@ -11641,7 +11820,7 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"resolve@patch:resolve@^1.1.5#builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#builtin<compat/resolve>":
+"resolve@patch:resolve@^1.1.5#builtin<compat/resolve>, resolve@patch:resolve@^1.10.0#builtin<compat/resolve>, resolve@patch:resolve@^1.12.0#builtin<compat/resolve>, resolve@patch:resolve@^1.14.2#builtin<compat/resolve>, resolve@patch:resolve@^1.20.0#builtin<compat/resolve>":
   version: 1.20.0
   resolution: "resolve@patch:resolve@npm%3A1.20.0#builtin<compat/resolve>::version=1.20.0&hash=3388aa"
   dependencies:
@@ -12088,6 +12267,13 @@ resolve@1.1.7:
     get-intrinsic: ^1.0.2
     object-inspect: ^1.9.0
   checksum: 84258ce3edb1ad35810ca17eccd52fd504b5d4da59447a6829cfd1ae8e3cff97b7df2a14f9a45b7aaa3b507ded95626cf20a500735d3b797e9ffb1eba3cfa9e7
+  languageName: node
+  linkType: hard
+
+"sigmund@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "sigmund@npm:1.0.1"
+  checksum: f1a6ed3c5477c5d38e43d700a8c80f3042fbffbaf98ca7aeab223f6b922d6786bdf3c51d971a19f04e044f12d97310902d1fe6a5ed9bcc41556c2a8eff0f421e
   languageName: node
   linkType: hard
 
@@ -13428,6 +13614,13 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
+"universalify@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "universalify@npm:2.0.0"
+  checksum: 36bfbdc97bd4b483596e66ea65e20663f5ab9ec3650157d99b075b7f97afcdefe46bbb23f89171dd75595d398cea3769a5b6d7130f5c66cae2a0f00904780f62
+  languageName: node
+  linkType: hard
+
 "unpipe@npm:1.0.0, unpipe@npm:~1.0.0":
   version: 1.0.0
   resolution: "unpipe@npm:1.0.0"
@@ -13745,14 +13938,14 @@ resolve@1.1.7:
   languageName: node
   linkType: hard
 
-"vue-cli-plugin-compression@npm:^1.1.3, vue-cli-plugin-compression@npm:~1.1.3":
-  version: 1.1.3
-  resolution: "vue-cli-plugin-compression@npm:1.1.3"
+"vue-cli-plugin-pnp@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "vue-cli-plugin-pnp@npm:1.0.0"
   dependencies:
-    compression-webpack-plugin: 6.1.1
+    pnp-webpack-plugin: ^1.5.0
   peerDependencies:
-    webpack: ^4.0.0
-  checksum: e8dfd749d969462540586fa3f33a01c42a2c7903f00d8d2a04c037e8f59d180cea207396d818e1fbba7826ec007f3e2b5501b4e53ef1c0f1701636b7659e2344
+    "@vue/cli-service": ">= 4.1.0-beta.0"
+  checksum: 3c0d2b2abd1a73389129b24e4a04a6e1e8cd31b6ee75e42d7a432218ca16abf0a1a3b9512b0b9c066c267c8d52811c877fc1037d1b8b3dbf407e8941f7d42eef
   languageName: node
   linkType: hard
 
